@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script defer src="index.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico?v1" />
+  </head>
+  <body>
+    <h1> Digital Grocery List</h1>
+<form id='inputForm'>
+  Item:
+  <input required type="text" id='Item'>
+  Quantity:
+  <input type="number" id='Qty'>
+  Unit:
+  <select id='Unit'>
+        <option value='' selected></option>
+        <option value='tsp(s).'>tsp.</option>
+        <option value='Tbsp(s).'>Tbsp.</option>
+        <option value='cup(s)'>cups</option>
+        <option value='oz(s).'>oz.</option>
+        <option value='pt(s).'>pt.</option>
+        <option value='qt(s).'>qt.</option>
+        <option value='lb(s).'>lbs.</option>
+        <option value='gallon(s)'>gallon</option></select>
+  Custom Unit:
+  <input type='text' id='CustomUnit'>
+<input type='submit' id='submit'>
+<button type="button" id='clearAll'>Clear</button>
+</form>
+
+
+<ul id=displayList>
+</ul>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  background-image: url('Printable-Paper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+text-align: left;
+font-family: 'Shadows Into Light', cursive;
+font-variant: small-caps;
+font-size: 75px;
+padding-bottom: 3px;
+padding-top: 79px;
+padding-left: 170px;
+}
+
+#inputForm {
+  padding-left: 170px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+  font-variant: small-caps;
+  padding-bottom: 20px;
+}
+
+#Item {
+  font-family: 'Shadows Into Light', cursive;
+  width: 225px;
+  font-size: 25px;
+  vertical-align: 8px;
+  color: red;
+  height: 35px;
+}
+
+#Qty {
+  font-family: 'Shadows Into Light', cursive;
+  width: 60px;
+  font-size: 25px;
+  vertical-align: 8px;
+  color: red;
+  height: 35px;
+}
+
+#Unit {
+  font-family: 'Shadows Into Light', cursive;
+  width: 100px;
+  font-size: 25px;
+  height: 39px;
+  vertical-align: 13%;
+  color: red;
+  background-color: white;
+}
+
+#CustomUnit {
+  font-family: 'Shadows Into Light', cursive;
+  width: 60px;
+  font-size: 25px;
+  vertical-align: 8px;
+  color: red;
+  height: 35px;
+}
+
+#submit {
+  background-color: #FFFFF1;
+  font-family: 'Shadows Into Light', cursive;
+  padding: 1px 20px;
+  font-size: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12px;
+  border-width: medium;
+  border-color: black;
+  vertical-align: 10%;
+  outline: none;
+  cursor: pointer;
+}
+
+#submit:active {
+  box-shadow: none;
+}
+
+#clearAll {
+  background-color: #FFFFF1;
+  font-family: 'Shadows Into Light', cursive;
+  padding: 1px 20px;
+  font-size: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12px;
+  border-width: medium;
+  border-color: black;
+  vertical-align: 10%;
+  outline: none;
+  cursor: pointer;
+}
+
+#clearAll:active {
+  box-shadow: none;
+}
+
+#displayList {
+  display: inline-block;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: left;
+  padding-left: 180px;
+  font-size: 40px;
+  line-height: 105.90%;
+  margin-top: 12px;
+}
+
+#clearLine {
+  margin-left: 25px;
+  font-family: 'Shadows Into Light', cursive;
+  cursor: pointer;
+  background-color: #FFFFF1;
+  font-size: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 12px;
+  border-width: medium;
+  border-color: black;
+  vertical-align: 40%;
+  outline: none;
+}
+
+#clearLine:active {
+  box-shadow: none;
+}
+
+.complete {
+  text-decoration: line-through;
+}
